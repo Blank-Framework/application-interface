@@ -2,8 +2,10 @@
     "name": "blank-framework/application-interface",
     "description": "Application interface for the use in the composer application",
     "type": "library",
+    "require": {
+        "php": ">=8.1"
+    },
     "require-dev": {
-        "php": ">=8.1",
         "phpstan/phpstan": "^1.11",
         "squizlabs/php_codesniffer": "^3.10",
         "rector/rector": "^1.2"
